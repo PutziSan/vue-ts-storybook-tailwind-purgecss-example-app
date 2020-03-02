@@ -1,0 +1,33 @@
+{
+  "name": "vue-typescript-with-vue-cli",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build-tailwind": "tailwindcss build scripts/tailwind-base.css -o src/tailwind.css -c scripts/tailwind.config.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "tailwindcss": "^1.2.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-knobs": "^5.3.14",
+    "@storybook/addon-viewport": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/vue": "^5.3.14",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-typescript": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "typescript": "~3.7.5",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
